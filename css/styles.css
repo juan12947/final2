@@ -1,0 +1,44 @@
+.jumbotron {
+  background-image: url('../img/macbook.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 600px;
+  z-index: -10;
+}
+
+.jumbotron-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 600px;
+  width: 100%;
+  z-index: -5;
+  margin-top: -48px;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+  color: #fff;
+}
+
+.my-name {
+  padding-top: 150px;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.my-work {
+  margin-bottom: 50px;
+}
+
+.mywork-thumbnails {
+  border: none;
+}
+
+footer {
+  background-color: #121212;
+  height: 100px;
+  width: 100%;
+  /*font-size: 24px;*/
+}
