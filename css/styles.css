@@ -28,6 +28,10 @@
   color: #fff;
 }
 
+.contact-info {
+  font-size: 24px
+}
+
 .my-work {
   margin-bottom: 50px;
 }
@@ -40,5 +44,13 @@ footer {
   background-color: #121212;
   height: 100px;
   width: 100%;
-  /*font-size: 24px;*/
+  font-size: 14px;
+}
+
+#github {
+  color: #fff;
+}
+
+#linkedin {
+  color: #fff;
 }
